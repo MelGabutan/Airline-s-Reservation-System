@@ -173,7 +173,7 @@ int assignSeat(int st[], int size, int seatType)
 						scanf("%d", &transferChoice);
 					
 					while(transferChoice != 1 && transferChoice != 0)
-						{	
+					{	
 							createBox(16, 18, 44, 68);
 							
 							gotoxy(63, 17);
